@@ -1,6 +1,5 @@
 provider "aws" {
   region = "us-east-1"
-  profile = "KiranSai"
 }
 
 # store the terraform state file in s3
@@ -9,7 +8,6 @@ terraform {
     bucket  = "codebuild-testing-25992"
     key     = "githubactions/terraform.tfstate"
     region  = "us-east-1"
-    profile = "KiranSai"
   }
 }
 
