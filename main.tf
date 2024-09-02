@@ -45,3 +45,7 @@ resource "aws_iam_role_policy_attachment" "attach_policy" {
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "25992-s3bucket"
 }
+
+resource "aws_s3_bucket" "my_bucket_2" {
+  bucket = "25992-s3bucket_testbucket2"
+}
